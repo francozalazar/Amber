@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/Header/LOGO.png">
+    <title>Amber</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/compra.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <div>
+                    <ul class="navbar">
+                        <li><a href="#">HOMBRE</a></li>
+                        <li><a href="#">MUJER</a></li>
+                        <li><a href="#">NIÑO</a></li>
+                        <li><a href="#">SALE</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/Header/LOGO.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <div class="contenedor-buscar">
+                    <div class="icon-buscar">
+                        <a href="#" class="lupa"><img src="../assets/Header/LUPA.png" alt="Busqueda"></a>
+                    </div>
+                    <div class="estilo-buscador toggle">
+                        <img src="../assets/Header/LUPA.png" alt="">
+                        <div class="buscar">
+                            <input type="search" placeholder="¿Qué estabas buscando?">
+                        </div>
+                    </div>
+                </div>
+                <div id="cart-icon-container">
+                    <img id="cart-icon" src="../assets/Header/carrito.png" alt="">
+                    <div id="cart-dropdown" class="hidden">
+                        <h2>Carrito</h2>
+                        <ul id="cart-items"></ul>
+                        <p>Total: $<span id="total-price">0.00</span></p>
+                    </div>
+                </div>
+                <a href="../pages/login.html" class="login"><img src="../assets/Header/LOGIN.png" alt="Login"></a>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="img-chomba">
+                <img src="../assets/Chombas/remera-4a.png" alt="">
+                <img src="../assets/Chombas/remera-4b.png" alt="">
+            </div>
+            <div class="modelo-precio-cuotas">
+                <div>
+                    <h2>Remera Kongo</h2>
+                    <h3>$59.990</h3>
+                    <h4>6 cuotas sin interes de $5.833</h4>
+                </div>
+                <div>
+                    <h5>COLORES</h5>
+                    <img src="../assets/Chombas/remera-4a.png" alt="Remera Kongo out">
+                    <img src="../assets/Chombas/remera-4b.png" alt="Remera Kongo in">
+                </div>
+                <div>
+                    <p class="titulo-talle">TALLES</p>
+                    <div class="talles-container">
+                        <h3 class="talles">S</h3>
+                        <h3 class="talles">M</h3>
+                        <h3 class="talles">L</h3>
+                        <h3 class="talles">XL</h3>
+                    </div>
+                    <div class="agregar-carrito">
+                        <button class="buy-button" data-product="Remera Kongo" data-price="59.990" data-image="../assets/Chombas/remera-4a.png">AGREGAR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container"> 
+            <div class="flex-footer">
+                <div class="txt-footer">
+                    <h2>Contacto</h2>
+                    <h3>Lunes a viernes de 09:00hs a 21:00hs</h3>
+                    <h3>Telefono: 0810-450-5850</h3>
+                    <h3>Whatsapp: 11-5177-2004</h3>
+                </div>
+                <div class="txt-footer-logo">
+                    <img src="../assets/Header/LOGO FOOTER.png" alt="">
+                </div>
+                <div class="img-footer">
+                    <a href="#"><img src="../assets/Footer/faceebok.png" alt="Facebook"></a>
+                    <a href="#"><img src="../assets/Footer/icono yoputube.png" alt="YouTube"></a>
+                    <a href="#"><img src="../assets/Footer/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="../assets/Footer/tiktok.png" alt="TikTok"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/buscar.js"></script>
+</body>
+</html>

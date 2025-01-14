@@ -1,0 +1,59 @@
+.titulo-login h2{
+    font-family: 'Poppins', system-ui;  
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.iniciar-sesion{
+    font-family: 'Poppins', system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.email-contraseña h4{
+    font-family: 'Poppins', system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    padding-top: 30px;
+}
+
+.email-contraseña input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #868686;
+}
+
+.email-contraseña p{
+    width: 345px;
+    padding-top: 15px;
+    font-family: 'Poppins', system-ui;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+}
+
+.boton-login button{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: #25387D;
+    color: #ffffff;
+    font-family: 'Poppins', system-ui;
+}
+
+
+.boton-login{
+    padding-top: 30px;
+    padding-bottom: 126px;
+}

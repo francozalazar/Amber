@@ -1,0 +1,95 @@
+.img-chomba img{
+    width: 471px;
+    height: 628px;
+}   
+
+.img-chomba{
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelo-precio-cuotas h2,
+.modelo-precio-cuotas h3,
+.modelo-precio-cuotas h4,
+.modelo-precio-cuotas h5 {
+    font-family: 'Poppins', system-ui;
+}
+
+.modelo-precio-cuotas {
+    padding-left: 50px;
+}
+
+.modelo-precio-cuotas h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.modelo-precio-cuotas h3 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.modelo-precio-cuotas h4 {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.modelo-precio-cuotas h5 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.modelo-precio-cuotas img {
+    width: 60px;
+    height: 90px;
+}
+
+.talles-container {
+    display: flex;
+    gap: 10px;
+}
+
+.talles{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #868686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.talles:hover{
+    color: #25387D;
+    border: 1px solid #25387D;
+}
+
+.titulo-talle{
+    font-family: 'Poppins', system-ui;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.agregar-carrito button{
+    padding: 10px 45px 10px 45px;
+    background-color: #25387D;
+    color: white;
+    border: none;
+    font-family: 'Poppins', system-ui;
+}
+
+.agregar-carrito{
+    padding-top: 20px;
+}
